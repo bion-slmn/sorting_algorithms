@@ -23,7 +23,7 @@ void shell_sort(int *array, size_t size)
 			temp = array[i];
 			j = i;
 
-			while (j > interval - 1&& array[j - interval] > temp)
+			while (j > interval - 1 && array[j - interval] > temp)
 			{
 				array[j] = array[j - interval];
 				j = j - interval;
