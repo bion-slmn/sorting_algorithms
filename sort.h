@@ -51,6 +51,10 @@ int forward_sort(listint_t **list, listint_t *temp);
 void merge_sort_recursion(int *array, int left, int right);
 void merge(int *array, int left, int middle, int right);
 
+int partition_hoare(int array[], int left, int rigth, int size);
+void quicksort_hoare(int array[], int left, int right, int size);
+void quick_sort_hoare(int *array, size_t size);
+
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 #endif

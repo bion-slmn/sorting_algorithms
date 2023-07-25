@@ -38,7 +38,7 @@ void quick_s(int *array, int low, int high, size_t size)
  *		are smaller than the pivot and those on the right are larger
  * @array: the array to be sorted
  * @size: is the size of the array
- * @low: is the left most of the array
+ * @low: is the left index  most of the array
  * @high: is the right most index
  *
  * Return: the index of the pivot element after sorting
