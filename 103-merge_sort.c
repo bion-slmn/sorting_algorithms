@@ -56,9 +56,9 @@ void merge(int *array, int left, int middle, int right)
 		return;
 	for (r = 0; r < n1 + n2; r++)
 		dup[r] = array[left + r];
-	printf("[left]:");
+	printf("[left]: ");
 	print_array(dup, n1);
-	printf("[right]:");
+	printf("[right]: ");
 	print_array(&dup[n1], n2);
 	while (i < n1 && j < n2)
 	{
@@ -83,6 +83,6 @@ void merge(int *array, int left, int middle, int right)
 	for (; j < n2; k++, j++)
 		array[k] = dup[n1 + j];
 	free(dup);
-	printf("[Done]:");
+	printf("[Done]: ");
 	print_array(array + left, right - left + 1);
 }
