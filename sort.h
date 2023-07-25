@@ -32,7 +32,6 @@ void bitonic_sort(int *array, size_t size);
 
 
 /* support function */
-void swap(int *item1, int *item2);
 void count_sort(int *array, int size, int place);
 void swap_nodes(listint_t *A, listint_t *B);
 void refreshPointers(listint_t *A);
