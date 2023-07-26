@@ -9,6 +9,9 @@
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j, temp, small;
+
+	if (array == NULL || size < 2)
+		return;
 	/* first loop to pass over every element */
 	for (i = 0; i <= size - 1; i++)
 	{
